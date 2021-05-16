@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/world.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(150, 150, 150, 1);
+    text-align: center;
+}
